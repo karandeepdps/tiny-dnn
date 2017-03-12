@@ -62,3 +62,5 @@ endif()
 if(PROTO_CPP_GENERATE)
     add_dependencies(example_caffe_converter generated_proto)
 endif()
+
+set(CMAKE_CXX_FLAGS "-std=c++11 -DCNN_USE_OMP=0 -I /Users/Karan/desktop/opencv/tiny-dnn/tiny-dnn/ -DDNN_USE_IMAGE_API")
