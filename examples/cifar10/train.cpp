@@ -31,6 +31,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <vector>
 #include "tiny_dnn/tiny_dnn.h"
 
+
 using namespace tiny_dnn;
 using namespace tiny_dnn::activation;
 
